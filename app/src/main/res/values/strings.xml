@@ -1,7 +1,13 @@
 <resources>
 	<string name="app_name">NavigationExample</string>
 	<string name="title_activity_main">MainActivity</string>
-
-	<string name="hello_world">Hello world!</string>
 	<string name="action_settings">Settings</string>
+
+	<!-- Navigation -->
+	<string name="navigation_drawer_header">Drawer Header</string>
+	<string name="navigation_item_1">Item 1</string>
+	<string name="navigation_item_2">Item 2</string>
+	<string name="navigation_open">Open</string>
+	<string name="navigation_close">Close</string>
+
 </resources>
