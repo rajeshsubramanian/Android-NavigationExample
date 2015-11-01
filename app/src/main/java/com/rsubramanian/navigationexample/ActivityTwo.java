@@ -3,16 +3,13 @@ package com.rsubramanian.navigationexample;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class MainActivity extends BaseActivity {
-
-	private static final String LOG_TAG = MainActivity.class.getName();
+public class ActivityTwo extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_two);
 
 		initNavigation();
 	}
@@ -20,7 +17,7 @@ public class MainActivity extends BaseActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.menu_main, menu);
+		getMenuInflater().inflate(R.menu.menu_activity_two, menu);
 		return true;
 	}
 
@@ -41,6 +38,6 @@ public class MainActivity extends BaseActivity {
 
 	@Override
 	public void handleNavigationMenu() {
-		getNavigationView().getMenu().getItem(0).setVisible(false);
+		getNavigationView().getMenu().getItem(1).setVisible(false);
 	}
 }
