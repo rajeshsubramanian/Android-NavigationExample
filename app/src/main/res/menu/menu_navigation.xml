@@ -9,5 +9,9 @@
 		<item
 			android:id="@+id/menuItem2"
 			android:title="@string/navigation_item_2"/>
+
+		<item
+			android:id="@+id/menuItem3"
+			android:title="@string/navigation_item_3"/>
 	</group>
 </menu>

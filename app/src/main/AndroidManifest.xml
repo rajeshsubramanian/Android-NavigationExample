@@ -20,6 +20,10 @@
 			android:name=".ActivityTwo"
 			android:label="@string/title_activity_two">
 		</activity>
+		<activity
+			android:name=".ActivityCollapsingToolbar"
+			android:label="@string/title_activity_collapsing_toolbar">
+		</activity>
 	</application>
 
 </manifest>

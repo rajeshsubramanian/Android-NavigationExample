@@ -54,6 +54,12 @@ public abstract class BaseActivity extends AppCompatActivity implements Navigati
 				startActivity(intent);
 				break;
 			}
+			case R.id.menuItem3: {
+				drawerLayout.closeDrawer(GravityCompat.START);
+				Intent intent = new Intent(this, ActivityCollapsingToolbar.class);
+				startActivity(intent);
+				break;
+			}
 		}
 		return false;
 	}
